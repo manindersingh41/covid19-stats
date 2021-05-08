@@ -26,6 +26,16 @@
     border: 1px solid #c3c3c3;
 }
 
+.filtering input:focus{
+    height: 100%;
+    width: 70%;
+    padding: 0 35px;
+    margin: 0;
+    outline: none;
+    border: 1px solid #df1111a9 !important;
+    box-shadow: 0 5px 10px 10px !important;
+}
+
 .filtering input:hover {
     
     border: 1px solid #c3c3c383;
@@ -54,5 +64,11 @@
 .filtering .sort-by:hover {
     
     border: 1px solid #c3c3c383;
+
+}
+
+.filtering .sort-by:focus {
+    outline: none;
+    border: 1px solid #df1111a9 !important;
 
 }
