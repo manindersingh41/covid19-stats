@@ -33,7 +33,6 @@
     margin: 0;
     outline: none;
     border: 1px solid #df1111a9 !important;
-    box-shadow: 0 5px 10px 10px !important;
 }
 
 .filtering input:hover {
