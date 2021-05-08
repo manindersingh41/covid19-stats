@@ -5,6 +5,7 @@ import ArraySort from 'array-sort';
 import CountryDetails from './../../components/CountryDetails/CountryDetails'
 import axios from 'axios'
 import NumberFormat from 'react-number-format'
+import Spinner from '../../components/Spinner/Spinner'
 
 export class Countries extends Component {
     
@@ -106,6 +107,7 @@ export class Countries extends Component {
 
                 </div>
                 <HeadlineNames />
+                {this.state.countryDetails.length < 1 ? <Spinner  /> : null }
                 {countriesList}
             </div>
         )
