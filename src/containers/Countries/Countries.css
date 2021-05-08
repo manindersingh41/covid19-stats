@@ -1,0 +1,57 @@
+.countries-stats{
+    height: auto;
+    width: 100%;
+}
+
+.countries-stats-heading{
+    font-weight: 700 !important;
+    font-family: "Nunito";
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.filtering{
+    height: 60px;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.filtering input{
+    height: 100%;
+    width: 70%;
+    padding: 0 35px;
+    margin: 0;
+    border: 1px solid #c3c3c3;
+}
+
+.filtering input:hover {
+    
+    border: 1px solid #c3c3c383;
+}
+
+.filtering input:acive {
+    height: 100%;
+    width: 70%;
+    padding: 0 35px;
+    margin: 0;
+    border: 1px solid #df1111a9;
+}
+
+
+.filtering .sort-by{
+    height: 100%;
+    width: calc(100%-75%);
+    margin-left: 0px;
+    padding: 0 2.5rem !important;
+    float: right;
+    border: 1px solid #c3c3c3;
+
+}
+
+.filtering .sort-by:hover {
+    
+    border: 1px solid #c3c3c383;
+
+}
