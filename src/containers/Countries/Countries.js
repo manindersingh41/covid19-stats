@@ -50,6 +50,7 @@ export class Countries extends Component {
         var FindSpecificCountry = [];
 
        if(value){
+           // eslint-disable-next-line
         countryDetails.map((cur, index) => {
             const finder = cur.Country.toLowerCase().search(value.toLowerCase())
 

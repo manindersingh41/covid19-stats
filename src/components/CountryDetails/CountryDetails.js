@@ -20,16 +20,19 @@ export default function CountryDetails(props) {
 
             <div className="cases-details">
                 <div className="cases-box Cases">
+                 {/* eslint-disable-next-line */}
                     <a href="#">{props.totalCases}</a>
                     <p className="yesterday">Last 24 Hours: <strong>{props.newCases}</strong></p>
                 </div>
 
                 <div className="cases-box Deaths">
+                {/* eslint-disable-next-line */}
                     <a href="#">{props.totalDeaths}</a>
                     <p className="yesterday">Last 24 Hours: <strong>{props.newDeaths}</strong></p>
                 </div>
 
                 <div className="cases-box Recovered">
+                {/* eslint-disable-next-line */}
                     <a href="#">{props.totalRecovered}</a>
                     <p className="yesterday">Last 24 Hours: <strong>{props.newRecovered}</strong></p>
                 </div>
