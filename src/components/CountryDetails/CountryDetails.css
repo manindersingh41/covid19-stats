@@ -1,10 +1,10 @@
 .countryDetails {
-    height: 90px;
+    height: 3.5em;
     width: 60%;
     border-bottom: 1px solid lightgrey;
     margin: auto;
     padding-bottom: 1em !important;
-    margin-top: 2.8em !important;
+    margin-top: 2.5em !important;
 }
 
 .country-icon {

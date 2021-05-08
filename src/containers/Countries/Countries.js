@@ -96,6 +96,7 @@ export class Countries extends Component {
         return (
             <div className='countries-stats'>
                 <h2 className='countries-stats-heading'>Countries Stats</h2>
+                <hr style={{margin: 'auto 43%', height : '1px'}} />
                 <div className='filtering'>
                     <input type='text' placeholder='Enter Country Name' onChange={this.SearchCountry} />
                     <select className='sort-by' onChange={this.ChangeSortValue}>
